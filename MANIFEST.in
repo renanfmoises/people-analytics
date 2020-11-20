@@ -1,0 +1,3 @@
+graft people-analytics
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  people-analytics/jupy *
