@@ -2,10 +2,10 @@
 
 # Import from standard library
 import os
-import people-analytics
+import people_analytics
 import pandas as pd
 # Import from our lib
-from people-analytics.lib import clean_data
+from people_analytics.lib import clean_data
 import pytest
 
 
