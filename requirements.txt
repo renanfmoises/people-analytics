@@ -74,7 +74,7 @@ testpath==0.4.4
 threadpoolctl==2.1.0
 toml==0.10.2
 tornado==6.1
-traitlets==5.0.5
+traitlets>=4.3.3
 typed-ast==1.4.1
 urllib3==1.26.2
 wcwidth==0.2.5
