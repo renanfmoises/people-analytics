@@ -62,5 +62,4 @@ pypi:
 # ----------------------------------
 #      STREAMLIT APP
 # ----------------------------------
-run_streamlit:
-  streamlit run pa_streamlit.py
+
