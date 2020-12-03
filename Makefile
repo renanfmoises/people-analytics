@@ -60,6 +60,7 @@ pypi:
 	@twine upload dist/* -u lologibus2
 
 # ----------------------------------
-#      STREAMLIT APP
+#      STREAMLIT
 # ----------------------------------
-
+run_streamlit:
+  streamlit run pa_streamlit.py
