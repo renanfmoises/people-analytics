@@ -12,13 +12,8 @@ def get_data(path):
     """
     Function to get the training data locally or from google cloud bucket
     """
-    # # client = storage.Client()
-    # if local:
-    #     path = FILE_PATH
-    #     df = pd.read_csv(path)
-    # else:
-        # df = pd.read_csv(uploaded_file)
     df = pd.read_csv(path)
+
     return df
 
 def clean_df(df):
