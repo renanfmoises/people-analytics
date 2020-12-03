@@ -79,6 +79,7 @@ tornado==6.1
 traitlets>=4.3.3
 typed-ast==1.4.1
 urllib3==1.26.2
+xgboost
 wcwidth==0.2.5
 webencodings==0.5.1
 wheel
