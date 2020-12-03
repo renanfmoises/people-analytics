@@ -7,9 +7,10 @@ from people_analytics.data import get_data, clean_df, scale_data
 
 MODEL_LOCAL_PATH = '/Users/renanfmoises/code/renanfmoises/people-analytics/rs_xgboost.joblib'
 
+MODEL_RELATIVE_PATH = './rs_xgboost.joblib'
 
 def get_model():
-    model = joblib.load(MODEL_LOCAL_PATH)
+    model = joblib.load(MODEL_RELATIVE_PATH)
     return model
 
 def predict():
