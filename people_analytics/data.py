@@ -1,5 +1,4 @@
 import pandas as pd
-from google.cloud import storage
 
 # from people_analytics.utils import simple_time_tracker
 from people_analytics.transformers import *
