@@ -59,7 +59,7 @@ if uploaded_file is not None:
 
 
     # Implement best threshold with predic_proba
-    threshold = .12
+    threshold = .30
     predicted_proba = model.predict_proba(df_scaled)
     predicted = (predicted_proba[:, 1] >= threshold).astype('int')
 
@@ -82,8 +82,8 @@ if uploaded_file is not None:
     cols_to_streamlit_show = [
         'EmployeeNumber',
         'Age',
-        'Department',
         'JobRole',
+        'Department',
         'MonthlyIncome',
         'OverTime',
         'YearsAtCompany'
