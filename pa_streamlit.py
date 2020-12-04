@@ -94,7 +94,7 @@ if uploaded_file is not None:
         ## Results from analysis:
         ''')
 
-    st.warning('⚠️ The following employees are at risk of leaving Best Pharma in the next few months ⚠️')
+    st.warning('⚠️ The following employees may leave Best Pharma in the next few months ⚠️')
 
     st.write(df_merged_attr[cols_to_streamlit_show].assign(hack = '').set_index('hack'))
 
