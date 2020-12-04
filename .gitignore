@@ -12,4 +12,6 @@ groupama/data/base_pno.*
 /raw_data/
 /raw_data/
 PAstreamlit.py
-rs_xgboost.joblib
+.rs_xgboost.joblib
+.final_model_softvoting_logr_rf_xgb.joblib
+/notebooks/old
