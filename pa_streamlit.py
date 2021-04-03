@@ -9,7 +9,7 @@ from people_analytics.data import get_data, clean_df, scale_data
 from people_analytics.predict import get_model, predict
 
 from PIL import Image
-image = Image.open('./images/people_header.png')
+image = Image.open('/.images/people_header.png')
 st.image(image, use_column_width=True)
 
 st.markdown(
